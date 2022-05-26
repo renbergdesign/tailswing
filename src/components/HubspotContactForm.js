@@ -14,6 +14,7 @@ const HubspotContactForm = () => {
 					portalId: "8359990",
 					formId: "330091e2-a85c-471b-9e0e-fdf5b8520279",
 					target: "#hubspotForm",
+					formInstanceId: "1",
 				});
 			}
 		});

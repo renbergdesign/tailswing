@@ -3,7 +3,7 @@ import { Fragment, useState } from "react";
 import HubspotContactForm from "./HubspotContactForm";
 
 export default function MyModal() {
-	let [isOpen, setIsOpen] = useState(false);
+	let [isOpen, setIsOpen] = useState(true);
 
 	function closeModal() {
 		setIsOpen(false);
